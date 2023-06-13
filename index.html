@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ebbc1aa60f.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="app.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 </head>
@@ -185,7 +186,7 @@
         </div>
     </section>
 
-    <!--Reviews Section-->
+    <!--Contact Section-->
 
     <section class="contact" id="contact">
         <div class="footer">
@@ -257,6 +258,14 @@
                 });
             })
         })
+        ScrollReveal({ reset: true });
+        ScrollReveal().reveal('.banner', { easing:"ease-in", delay: 100});
+        ScrollReveal().reveal('.shop', { easing: "ease-in", delay: 100});
+        ScrollReveal().reveal('.about', { easing: "ease-in", delay: 100 });
+        ScrollReveal().reveal('.review', { easing: "ease-in", delay: 100 });
+        ScrollReveal().reveal('.contact', { easing: "ease-in", delay: 100 });
+        ScrollReveal().reveal('.form', { easing: "ease-in", delay: 100 });
+        ScrollReveal().reveal('.strip', { easing: "ease-in", delay: 100 });
     </script>
 </body>
 </html>

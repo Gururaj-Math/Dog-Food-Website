@@ -572,8 +572,11 @@ footer .links .navigation li a:hover{
     {
         font-size: 1.5em;
     }
+    .title p {
+    text-align: center;
 }
-@media (min-width: 768px)and (max-width: 991px){ 
+}
+@media (min-width: 768px) and (max-width: 991px){ 
     .about
     {
         display: flex;
